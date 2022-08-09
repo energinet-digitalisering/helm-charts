@@ -3,7 +3,17 @@ entries:
   test-helm-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-09T12:38:51.059123068Z"
+    created: "2022-08-09T12:41:12.94967932Z"
+    description: A Helm chart for Kubernetes
+    digest: 957614896214c2f33f7e5b56657213af33be5f299dee727397c79654d3c77f74
+    name: test-helm-chart
+    type: application
+    urls:
+    - test-helm-chart-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-08-09T12:41:12.949187888Z"
     description: A Helm chart for Kubernetes
     digest: ddf8e0f6464bf594b2e7195071f7f3e8ecdef1d5ee1bf5cf7a5666f8131c1f4a
     name: test-helm-chart
@@ -11,4 +21,4 @@ entries:
     urls:
     - test-helm-chart-0.3.0.tgz
     version: 0.3.0
-generated: "2022-08-09T12:38:51.058224758Z"
+generated: "2022-08-09T12:41:12.948431637Z"
