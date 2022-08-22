@@ -3,7 +3,7 @@ entries:
   test-helm-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-18T07:57:40.145547682Z"
+    created: "2022-08-22T11:34:31.458048869Z"
     description: Bedre beskrivelse
     digest: 9ad818e3adbf74658109251bf559fab88745c507cf24b8626bfb02bae9d9fd76
     name: test-helm-chart
@@ -13,7 +13,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-18T07:57:40.145096079Z"
+    created: "2022-08-22T11:34:31.457571561Z"
     description: A Helm chart for Kubernetes
     digest: 957614896214c2f33f7e5b56657213af33be5f299dee727397c79654d3c77f74
     name: test-helm-chart
@@ -23,7 +23,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-18T07:57:40.144642077Z"
+    created: "2022-08-22T11:34:31.457097052Z"
     description: A Helm chart for Kubernetes
     digest: ddf8e0f6464bf594b2e7195071f7f3e8ecdef1d5ee1bf5cf7a5666f8131c1f4a
     name: test-helm-chart
@@ -31,4 +31,22 @@ entries:
     urls:
     - test-helm-chart-0.3.0.tgz
     version: 0.3.0
-generated: "2022-08-18T07:57:40.143940572Z"
+  the-thing-stack:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-08-22T11:34:31.47083269Z"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.6.13
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.13.2
+    description: A Helm chart for Kubernetes
+    digest: 1f7e0cd6cf2a98e9bd56cf7e4c27c99d3fa59586675ef788175997da9ba8e484
+    name: the-thing-stack
+    type: application
+    urls:
+    - the-thing-stack-0.1.1.tgz
+    version: 0.1.1
+generated: "2022-08-22T11:34:31.456472042Z"
