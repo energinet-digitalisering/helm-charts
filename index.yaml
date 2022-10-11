@@ -3,7 +3,24 @@ entries:
   node-red:
   - apiVersion: v2
     appVersion: 2.2.3
-    created: "2022-10-10T14:45:32.236919468Z"
+    created: "2022-10-11T14:17:42.197524364Z"
+    dependencies:
+    - name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: v0.0.124
+    description: A Helm chart for Node-Red, a low-code programming for event-driven
+      applications
+    digest: 46d1ae904f296947fd7b39c792fd8605cd6c1693a3cffd7e499b968ce6912c88
+    home: https://nodered.org/
+    icon: https://nodered.org/about/resources/media/node-red-icon-2.png
+    name: node-red
+    type: application
+    urls:
+    - node-red-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 2.2.3
+    created: "2022-10-11T14:17:42.194622227Z"
     description: A Helm chart for Node-Red, a low-code programming for event-driven
       applications
     digest: 8574d840fbfbe36c17cc74e526ef0e2a38ec3f7f09601303fd182c3d1ff1e6f2
@@ -16,7 +33,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-10T14:45:32.235517375Z"
+    created: "2022-10-11T14:17:42.192943447Z"
     description: A Helm chart for Node-Red, a low-code programming for event-driven
       applications
     digest: 242e747ed064466026b6e70037529d6806816f13a7ea679896fd3c30d5e348b7
@@ -30,7 +47,7 @@ entries:
   test-helm-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-10T14:45:32.238176961Z"
+    created: "2022-10-11T14:17:42.200877823Z"
     description: Bedre beskrivelse
     digest: 9ad818e3adbf74658109251bf559fab88745c507cf24b8626bfb02bae9d9fd76
     name: test-helm-chart
@@ -40,7 +57,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-10T14:45:32.237764863Z"
+    created: "2022-10-11T14:17:42.198965733Z"
     description: A Helm chart for Kubernetes
     digest: 957614896214c2f33f7e5b56657213af33be5f299dee727397c79654d3c77f74
     name: test-helm-chart
@@ -50,7 +67,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-10T14:45:32.237341766Z"
+    created: "2022-10-11T14:17:42.198256999Z"
     description: A Helm chart for Kubernetes
     digest: ddf8e0f6464bf594b2e7195071f7f3e8ecdef1d5ee1bf5cf7a5666f8131c1f4a
     name: test-helm-chart
@@ -61,7 +78,7 @@ entries:
   the-thing-stack:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-10T14:45:32.273296978Z"
+    created: "2022-10-11T14:17:42.244190178Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -78,7 +95,7 @@ entries:
     version: 0.1.11
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-10T14:45:32.262590834Z"
+    created: "2022-10-11T14:17:42.229093962Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -95,7 +112,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-10T14:45:32.355018652Z"
+    created: "2022-10-11T14:17:42.343244877Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -112,7 +129,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-10T14:45:32.343129814Z"
+    created: "2022-10-11T14:17:42.329276314Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -129,7 +146,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-10T14:45:32.331557975Z"
+    created: "2022-10-11T14:17:42.315726671Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -146,7 +163,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-10T14:45:32.320334233Z"
+    created: "2022-10-11T14:17:42.301812411Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -163,7 +180,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-10T14:45:32.308769393Z"
+    created: "2022-10-11T14:17:42.289050706Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -180,7 +197,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-10T14:45:32.296974555Z"
+    created: "2022-10-11T14:17:42.272535923Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -197,7 +214,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-10T14:45:32.285249916Z"
+    created: "2022-10-11T14:17:42.257984932Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -214,7 +231,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-10T14:45:32.250114899Z"
+    created: "2022-10-11T14:17:42.214174854Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -229,4 +246,4 @@ entries:
     urls:
     - the-thing-stack-0.1.1.tgz
     version: 0.1.1
-generated: "2022-10-10T14:45:32.234117082Z"
+generated: "2022-10-11T14:17:42.191294669Z"
